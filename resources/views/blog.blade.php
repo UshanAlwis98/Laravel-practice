@@ -1,2 +1,2 @@
 This blog page.
-<a href="/gohere ">Blog</a>
+<a href="/gohere ">Navigate to Test page</a>
