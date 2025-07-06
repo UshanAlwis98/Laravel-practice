@@ -37,3 +37,4 @@ echo "<h1>This is HTML Heading</h1>";
 ?>
 
 {!! "<h1>This is HTML Heading in blade template</h1>" !!}
+{{-- HTML TAG inside blade --}}
