@@ -13,4 +13,12 @@ class UserController extends Controller
     public function mydata(){
         return view('mydata');
     }
+
+      public function showID(int $id){
+        echo "Your ID is {$id}";
+    }
+
+    public function studentInfo(){
+        return view('student');
+    }
 }
