@@ -7,6 +7,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+// route name = /gohere
 Route::get('/gohere', function () {
     return view('test');
 });
