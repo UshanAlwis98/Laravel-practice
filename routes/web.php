@@ -12,6 +12,7 @@ Route::get('/gohere', function () {
     return view('test');
 });
 
+// route name = /readit
 Route::get('/readit', function () {
     return view('blog');
 });
