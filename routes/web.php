@@ -19,6 +19,8 @@ Route::get('/readit', function () {
 
 // route name = /users and controller method = showUsers
 Route::get('/users', [UserController::class, 'showUsers']);
+
+// route name = /mydata and controller method = mydata
 Route::get('/mydata', [UserController::class, 'mydata']);
 Route::get('/userID/{id}', [UserController::class, 'showID'])->whereNumber('id');
 Route::get('/studentsssss', [UserController::class, 'studentInfo'])->name('students');
